@@ -29,23 +29,6 @@ body {
   border-radius: 25px;
 }
 
-.LinksParents,
-.LinksStudents {
-  color: aliceblue;
-  text-decoration: none;
-}
-
-.LinksParents:hover,
-.LinksStudents:hover {
-  color: #f6aa1c;
-  text-decoration: underline;
-}
-
-.LinksParents:visited,
-.LinksStudents:visited {
-  color: #621708;
-}
-
 .navLinks {
   color: #d4a373;
   text-decoration: none;
@@ -53,6 +36,14 @@ body {
   padding: 20px;
   margin: 20px;
 }
+
+/* .navLinks:visited {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px;
+  margin: 20px;
+} */
 
 .topPage {
   color: #d4a373;
@@ -63,6 +54,10 @@ body {
   display: block;
   width: 100px;
   margin: auto;
+}
+
+.topPage:hover {
+  color: white;
 }
 
 .navLinks:hover {
